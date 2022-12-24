@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const questions = [
   {
@@ -61,6 +62,11 @@ function App() {
 
   return (
     <div className="app">
+      <div>
+
+
+      </div>
+
       {showScore ? (
         <div className="score-section">
           Você pontuou {score} de {questions.length}
